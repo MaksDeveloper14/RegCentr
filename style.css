@@ -20,7 +20,7 @@ a {
 }
 
 .container {
-	width: 1170px;
+	max-width: 1170px;
 	margin: 0 auto;
 }
 
@@ -533,6 +533,15 @@ a {
 .cards__card-description-price {
 	color: #4d59a1;
 	font-weight: bold;
+}
+
+@media (max-width: 1113px) {
+	.params .container {
+		flex-wrap: wrap;
+	}
+	.params .cards__card {
+		margin-top: 210px;
+	}
 }
 
 

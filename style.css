@@ -237,6 +237,9 @@ a {
 		margin-right: 40px;
 		margin-left: 40px;
 	}
+	.card:last-child {
+		align-self: start;
+	}
 }
 
 
@@ -484,7 +487,7 @@ a {
 
 
 /*_________________________________________________________________________________________________________
- _____________________________________________  Параметры  ___________________________________________*/
+ _____________________________________________  ПАРАМЕТРЫ  ___________________________________________*/
 
 .params {
 	background-color: #f2f2f2;
@@ -539,8 +542,34 @@ a {
 	.params .container {
 		flex-wrap: wrap;
 	}
+	.cards__card-item {
+
+	}
 	.params .cards__card {
 		margin-top: 210px;
+	}
+	.params__title {
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: 28px;
+	}
+	.title-gallery4 {
+		font-size: 28px;
+		padding: 0 60px;
+	}
+	.gallery1 {
+		padding-top: 25px;
+	}
+	.gallery2 {
+		padding-top: 20px;
+	}
+	.gallery2__title {
+		font-size: 28px;
+		padding: 0 50px;
+	}
+	.title {
+		font-size: 30px;
+		padding: 30px;
 	}
 }
 
